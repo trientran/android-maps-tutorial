@@ -1,4 +1,6 @@
 apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-android'
 
 android {
     compileSdkVersion 28
@@ -23,5 +25,10 @@ dependencies {
     implementation "androidx.appcompat:appcompat:$version_appcompat"
     implementation "com.google.android.gms:play-services-maps:$version_play_service"
     implementation "com.google.maps.android:android-maps-utils:$version_map_utils"
+    implementation "androidx.core:core-ktx:$version_core"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
+}
+repositories {
+    mavenCentral()
 }
