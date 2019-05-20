@@ -1,4 +1,3 @@
-# android-java-map-tutorial
 This project contains sample codes for building a static map with predefined bus and coach routes. It includes an area on the map with highlighted routes and annotations and markers.
 
 We can add maps based on Google Maps data with the Maps SDK for Android to our application. Access to Google Maps servers, map display, data downloading, and response to map gestures is all handled by the API automatically. By using API calls, we can also add to a basic map markers, polylines, and overlays, and change the user's view of a particular map area. 
